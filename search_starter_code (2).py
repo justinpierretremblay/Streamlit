@@ -32,7 +32,7 @@ def cosine_similarity(x,y):
 
 
 # Function to Load Glove Embeddings
-def load_glove_embeddings(glove_path=r"C:\Users\jp9tr\OneDrive\Masters\Fall23\EE P 500 D - LLM and ChatGPT\glove.6B.50d.txt"):
+def load_glove_embeddings(glove_path=r"C:\Users\jp9tr\OneDrive\Masters\Fall23\EE P 500 D - LLM and ChatGPT\glove.6B.50dd.txt"):
     """
     First step: Download the 50d Glove embeddings from here - https://www.kaggle.com/datasets/adityajn105/glove6b50d
     Second step: Format the glove embeddings into a dictionary that goes from a word to the 50d embedding.
